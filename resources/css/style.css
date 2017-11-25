@@ -3,6 +3,21 @@ html{
   font-family: Open Sans;
 }
 
+h2{
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+img{
+  width: 100%;
+}
+
 /*top header navigation section*/
 .navbar a{
   font-size: 1.1rem;
@@ -16,6 +31,8 @@ html{
 /*Jumbotron section*/
 .jumbotron-bike{
   background-image: url("../images/jumbotron-bike.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -24,6 +41,7 @@ html{
   flex-direction: column;
   align-items: center;
   padding: 11.85rem;
+  height: 44rem;
 }
 
 .jumbotron h1{
@@ -52,4 +70,27 @@ html{
 .relative-wrapper a{
   width: 11.4rem;
   padding: 1.3rem;
+}
+
+/*Featured project*/
+.featured{
+  margin-top: -6rem;
+}
+
+.image-container{
+  height: 19rem;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.image-container img{
+  opacity: 0.7;
+}
+
+.product-categories h3{
+  color: #399bd1;
+}
+
+.product-categories ul{
+  color: rgba(0, 0, 0, 0.7);
 }
